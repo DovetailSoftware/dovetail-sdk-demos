@@ -1,0 +1,91 @@
+body, textarea, input {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Arial;
+  font-size: x-small;
+  color: Navy;
+}
+
+select {
+  width: 120px;
+}
+
+input.disabled, textarea.disabled, select.disabled {
+  color: darkgray;
+  background-color: gainsboro;
+}
+
+.commandButton {
+  font-size: x-small;
+}
+
+table {
+  font-family: Verdana, Arial;
+  font-size: x-small;
+  color: Navy;
+}
+
+.text {
+  font-size: x-small;
+  line-height: 1.5em;
+  padding: 10px;
+}
+
+.errorMsg {
+  color: Red;
+}
+
+.gridHeading {
+  padding-right: 2px;
+  padding-left: 2px;
+  font-size: xx-small;
+  padding-bottom: 2px;
+  color: white;
+  padding-top: 2px;
+  background-color: saddlebrown;
+}
+
+.gridItemRow {
+  padding-right: 2px;
+  padding-left: 2px;
+  font-size: xx-small;
+  padding-bottom: 2px;
+  color: navy;
+  padding-top: 2px;
+  background-color: ivory;
+}
+
+.gridAltItemRow {
+  padding-right: 2px;
+  padding-left: 2px;
+  font-size: xx-small;
+  padding-bottom: 2px;
+  color: navy;
+  padding-top: 2px;
+  background-color: beige;
+}
+
+.gridItemRow td, .gridAltItemRow td {
+  padding: 2px;
+}
+
+.pageHeader {
+  color: navy;
+  background-color: lightgoldenrodyellow;
+}
+
+.pageHeaderBar {
+  background-color: saddlebrown;
+  font-size: xx-small;
+}
+
+.gridTitle {
+  font-weight: bold;
+  font-size: x-small;
+  color: white;
+  background-color: darkslategray;
+}
+
+.gridFrame {
+  border: solid 1px darkslategray;
+}

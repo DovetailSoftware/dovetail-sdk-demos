@@ -1,0 +1,17 @@
+/lib/
+bin/
+obj/
+src/CommonAssemblyInfo.*
+*.user
+*.suo
+*.sln.cache
+*.bak
+
+# Resharper
+_ReSharper.*
+*.ReSharper.user
+
+/build/
+src/packages
+results
+Gemfile.lock

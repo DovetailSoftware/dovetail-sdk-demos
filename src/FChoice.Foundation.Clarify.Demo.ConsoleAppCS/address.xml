@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<addresses>
+	<address 
+		address1="8900 Business Park Drive" 
+		address2="" 
+		city="Austin" 
+		state="TX" 
+		zip="78759" 
+		country="USA" 
+		timezone="Central Standard Time" 
+		/>
+		
+	<address 
+		address1="1234 Main Street" 
+		address2="Suite 789" 
+		city="Boston" 
+		state="MA" 
+		zip="02154" 
+		country="USA" 
+		timezone="Eastern Standard Time" 
+		/>
+		
+	<address 
+		address1="1 Clarify Way" 
+		address2="" 
+		city="San Jose" 
+		state="CA" 
+		zip="98621" 
+		country="USA" 
+		timezone="Pacific Standard Time" 
+		/>				
+</addresses>
