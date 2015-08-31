@@ -119,25 +119,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="adodb">
-      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\adodb.dll</HintPath>
+      <HintPath>..\packages\Dovetail.SDK\lib\net40\adodb.dll</HintPath>
     </Reference>
     <Reference Include="FChoice.Common">
-      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\FChoice.Common.dll</HintPath>
+      <HintPath>..\packages\Dovetail.SDK\lib\net40\FChoice.Common.dll</HintPath>
     </Reference>
     <Reference Include="FChoice.Foundation.Clarify.Compatibility">
-      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\FChoice.Foundation.Clarify.Compatibility.dll</HintPath>
+      <HintPath>..\packages\Dovetail.SDK\lib\net40\FChoice.Foundation.Clarify.Compatibility.dll</HintPath>
     </Reference>
     <Reference Include="FChoice.Foundation.Clarify.Compatibility.Toolkits">
-      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\FChoice.Foundation.Clarify.Compatibility.Toolkits.dll</HintPath>
+      <HintPath>..\packages\Dovetail.SDK\lib\net40\FChoice.Foundation.Clarify.Compatibility.Toolkits.dll</HintPath>
     </Reference>
     <Reference Include="FChoice.Toolkits.Clarify">
-      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\FChoice.Toolkits.Clarify.dll</HintPath>
+      <HintPath>..\packages\Dovetail.SDK\lib\net40\FChoice.Toolkits.Clarify.dll</HintPath>
     </Reference>
     <Reference Include="fcSDK">
-      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\fcSDK.dll</HintPath>
+      <HintPath>..\packages\Dovetail.SDK\lib\net40\fcSDK.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
-      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+      <HintPath>..\packages\log4net\lib\net40-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Oracle.ManagedDataAccess">
       <HintPath>..\packages\odp.net.managed\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
