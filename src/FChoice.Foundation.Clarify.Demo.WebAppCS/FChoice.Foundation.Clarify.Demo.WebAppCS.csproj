@@ -118,45 +118,38 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FChoice.Common, Version=3.3.6.9, Culture=neutral, PublicKeyToken=48c955ba8dfd90d8, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\FChoice.Common.dll</HintPath>
+    <Reference Include="adodb">
+      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\adodb.dll</HintPath>
     </Reference>
-    <Reference Include="FChoice.Toolkits.Clarify, Version=3.3.6.9, Culture=neutral, PublicKeyToken=48c955ba8dfd90d8, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\build\Release\FChoice.Toolkits.Clarify.dll</HintPath>
+    <Reference Include="FChoice.Common">
+      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\FChoice.Common.dll</HintPath>
     </Reference>
-    <Reference Include="fcSDK, Version=3.3.6.9, Culture=neutral, PublicKeyToken=48c955ba8dfd90d8, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\build\Release\fcSDK.dll</HintPath>
+    <Reference Include="FChoice.Foundation.Clarify.Compatibility">
+      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\FChoice.Foundation.Clarify.Compatibility.dll</HintPath>
     </Reference>
-    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\log4net.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="FChoice.Foundation.Clarify.Compatibility.Toolkits">
+      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\FChoice.Foundation.Clarify.Compatibility.Toolkits.dll</HintPath>
     </Reference>
-    <Reference Include="System">
-      <Name>System</Name>
+    <Reference Include="FChoice.Toolkits.Clarify">
+      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\FChoice.Toolkits.Clarify.dll</HintPath>
     </Reference>
+    <Reference Include="fcSDK">
+      <HintPath>..\packages\Dovetail.SDK.3.3.6.21\lib\net40\fcSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\packages\odp.net.managed\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
     <Reference Include="System.configuration" />
-    <Reference Include="System.Configuration.Install">
-      <Name>System.Configuration.Install</Name>
-    </Reference>
-    <Reference Include="System.Data">
-      <Name>System.Data</Name>
-    </Reference>
-    <Reference Include="System.Drawing">
-      <Name>System.Drawing</Name>
-    </Reference>
-    <Reference Include="System.Management">
-      <Name>System.Management</Name>
-    </Reference>
-    <Reference Include="System.Web">
-      <Name>System.Web</Name>
-    </Reference>
-    <Reference Include="System.Xml">
-      <Name>System.XML</Name>
-    </Reference>
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.ico" />
@@ -276,6 +269,9 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ripple.dependencies.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -3,6 +3,7 @@ bin/
 obj/
 src/CommonAssemblyInfo.*
 *.user
+*.log*
 *.suo
 *.sln.cache
 *.bak
