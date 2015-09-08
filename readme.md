@@ -1,6 +1,8 @@
 Dovetail SDK Demos
 ==================
 
+These Demos were provided with Dovetail SDK, and served as a good starting point for many applications. Our resources have changed a lot over the years, so we separated the demos out into this repo. They are still a good resource, but have been replaced by the examples found in [Dovetail Bootstrap](https://github.com/DovetailSoftware/dovetail-bootstrap).
+
 ## .Net Console Demo
 
 Demonstrates how a developer can use the SDK to add/import records to their database from another source (such as an XML file in this case).
